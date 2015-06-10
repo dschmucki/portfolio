@@ -11,14 +11,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        findViewById(R.id.buttonSpotifyStreamer).setOnClickListener(this);
-        findViewById(R.id.buttonScoresApp).setOnClickListener(this);
-        findViewById(R.id.buttonLibraryApp).setOnClickListener(this);
-        findViewById(R.id.buttonBuildItBigger).setOnClickListener(this);
-        findViewById(R.id.buttonXYZReader).setOnClickListener(this);
-        findViewById(R.id.buttonCapstone).setOnClickListener(this);
-
     }
 
     @Override

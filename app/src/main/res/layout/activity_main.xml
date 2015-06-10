@@ -25,45 +25,51 @@
 
         <Button
             android:id="@+id/buttonSpotifyStreamer"
+            style="@style/ProjectButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/spotify_title"
-            style="@style/ProjectButton" />
+            android:onClick="onClick"
+            android:text="@string/spotify_title" />
 
         <Button
             android:id="@+id/buttonScoresApp"
+            style="@style/ProjectButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/scores_title"
-            style="@style/ProjectButton" />
+            android:onClick="onClick"
+            android:text="@string/scores_title" />
 
         <Button
             android:id="@+id/buttonLibraryApp"
+            style="@style/ProjectButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/library_title"
-            style="@style/ProjectButton" />
+            android:onClick="onClick"
+            android:text="@string/library_title" />
 
         <Button
             android:id="@+id/buttonBuildItBigger"
+            style="@style/ProjectButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/bigger_title"
-            style="@style/ProjectButton" />
+            android:onClick="onClick"
+            android:text="@string/bigger_title" />
 
         <Button
             android:id="@+id/buttonXYZReader"
+            style="@style/ProjectButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/xyz_title"
-            style="@style/ProjectButton" />
+            android:onClick="onClick"
+            android:text="@string/xyz_title" />
 
         <Button
             android:id="@+id/buttonCapstone"
+            style="@style/CapstoneButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/capstone_title"
-            style="@style/CapstoneButton" />
+            android:onClick="onClick"
+            android:text="@string/capstone_title" />
 
     </LinearLayout>
 
